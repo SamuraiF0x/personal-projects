@@ -1,0 +1,34 @@
+{
+  "expo": {
+		"name": "Lighthouse",
+		"slug": "lighthouse",
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "automatic",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#001731"
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#001731"
+			}
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "4b4b4c3a-c155-4385-bf40-a2eb82d392f3"
+			}
+		},
+		"owner": "samuraif0x"
+	}
+}
